@@ -1,0 +1,6 @@
+youtube-dl
+Flask
+flask-restful
+sqlalchemy
+flask-login
+nodejs
