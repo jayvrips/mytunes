@@ -9,9 +9,10 @@ RUN pip3 install --trusted-host pypi.python.org -r requirements.txt
 RUN apt-get update
 RUN apt-get install -y mongodb vim curl procps 
 
-EXPOSE 27017
-EXPOSE 80
-EXPOSE 443
+
+
+
+EXPOSE 27017 80 443
 
 VOLUME /data/db
 
